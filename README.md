@@ -17,7 +17,7 @@ Implement the method in the `SingleCharacterEdit` class (provided) that takes tw
 
 Note the string returned should be exactly as prescribed here.  Do not add additional spacing, and replace, remove and insert should be in lowercase.
 
-To test your code, run the given class `TestSingleCharacterEdit`.  This will perform some basic testing of your code, by calling it and checking it gives the right outputs.
+To test code, run the given class `TestSingleCharacterEdit`.  This will perform some basic testing of the code, by calling it and checking it gives the right outputs.
 
 
 
@@ -37,7 +37,7 @@ Each pixel on a monochrome (black and white) screen can be represted as a bit --
 
 `{240,240,15,1,240,241}`
 
-When you are ready to test the code you will write for this question, run the given class `TestScreenAsBytes`.  This will perform some basic testing of your code, by calling it and checking it gives the right outputs.
+When ready to test the code, run the given class `TestScreenAsBytes`.  This will perform some basic testing of the code, by calling it and checking it gives the right outputs.
 
 
 ## Drawing a single pixel
@@ -45,7 +45,7 @@ When you are ready to test the code you will write for this question, run the gi
 Complete the method `setPixel` in the given class `ScreenAsBytes`.  This takes as input:
 
 * The bytes representing the screen, as described above
-* The width of the image.  You can assume this is a multiple of 8. *Hint: you can work out the height of the image from the length of the array, and the width.*
+* The width of the image.  You can assume this is a multiple of 8. *you can work out the height of the image from the length of the array, and the width.*
 * The x and y positions of the pixel
 
 The method should modify `screen' so the given pixel has a value of 1.  For instance, for a screen 16 pixels wide and 3 pixels tall that is entirely blank (all pixels set to zero), screen would be
@@ -63,7 +63,7 @@ The method should modify `screen' so the given pixel has a value of 1.  For inst
 
 ...or in decimal `{0,0,128,0,0,0}`
 
-To perform a basic test of your code, run TestScreenAsBytes, which as the first test will set a single pixel of the image to 1 and check the correct one has been set.
+To perform a basic test of the code, run TestScreenAsBytes, which as the first test will set a single pixel of the image to 1 and check the correct one has been set.
 
 ## Drawing a horizontal line
 
@@ -75,7 +75,7 @@ Complete the method `drawHorizontalLine`.  This takes as input:
 
 The method should modify `screen` to contain a horizontal line drawn at the correct position. 
 
-To perform a basic test of your code, run TestScreenAsBytes, which as the second test will draw a horizontal line on the image and check the correct pixels have the value 1.
+To perform a basic test of the code, run TestScreenAsBytes, which as the second test will draw a horizontal line on the image and check the correct pixels have the value 1.
 
 ## Drawing a vertical line
 
