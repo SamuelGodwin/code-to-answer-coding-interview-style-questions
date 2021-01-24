@@ -45,7 +45,7 @@ When ready to test the code, run the given class `TestScreenAsBytes`.  This will
 Complete the method `setPixel` in the given class `ScreenAsBytes`.  This takes as input:
 
 * The bytes representing the screen, as described above
-* The width of the image.  You can assume this is a multiple of 8. *you can work out the height of the image from the length of the array, and the width.*
+* The width of the image.  Assume this is a multiple of 8. *you can work out the height of the image from the length of the array, and the width.*
 * The x and y positions of the pixel
 
 The method should modify `screen' so the given pixel has a value of 1.  For instance, for a screen 16 pixels wide and 3 pixels tall that is entirely blank (all pixels set to zero), screen would be
