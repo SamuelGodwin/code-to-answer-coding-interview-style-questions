@@ -1,4 +1,5 @@
-# 
+# Code to Answer Coding Interview-Style Questions
+
 Java code to answer a number of coding interview style questions.  
 
 # Single character edits
