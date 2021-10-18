@@ -1,5 +1,7 @@
 # Code to Answer Coding Interview-Style Questions
 
+![TestScreenAsBytes](./TestScreenAsBytes.gif)
+
 Run TestScreenAsBytes.java.
 
 Run TestSingleCharacterEdit.java.
